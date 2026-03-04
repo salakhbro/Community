@@ -1,0 +1,332 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-black {
+    width: 1520px;
+    /* height: 50px; */
+    background-color: #000;
+    font-size: 20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.shopnow {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
+.select {
+    margin-left: 200px;
+    background: transparent;
+    color: #fff;
+    border: none;
+}
+
+.exclusive {
+    padding: 55px 70px;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+.linkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.looking {
+    width: 243px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #F5F5F5;
+}
+
+.search-icon {
+    color: #F5F5F5;
+    font-size: 25px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.heart {
+    color: red;
+    font-size: 35px;
+}
+
+.header {
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.borders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    margin-top: 40px;
+    height: 1px;
+    background: #000;
+}
+
+.header-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.name-password {
+    width: 370px;
+    margin: 80px auto;
+    flex-direction: column;
+}
+
+.name-password input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 15px 0;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 35px;
+    color: #555;
+}
+
+.name-password input::placeholder {
+    color: #aaa;
+}
+
+.button-box {
+    margin-top: 20px;
+}
+
+.account {
+    width: 370px;
+    height: 56px;
+    background: #DB4444;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.google {
+    width: 370px;
+    font-size: 16px;
+    height: 56px;
+    border: 1px solid #00000066;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+.sides {
+    margin-left: -97px;
+}
+
+.nimadur {
+    margin-left: 200px;
+}
+
+.enter {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer {
+    width: 1521px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    padding: 60px 80px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-col {
+    min-width: 180px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.send {
+    position: relative;
+    color: #fff;
+    right: 25px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-col p {
+    font-size: 14px;
+    margin: 6px 0;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.footer-col p:hover {
+    color: #fff;
+}
+
+.subscribe-box {
+    display: flex;
+    border: 1px solid #fff;
+    margin-top: 10px;
+}
+
+.subscribe-box input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    outline: none;
+}
+
+.subscribe-box button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.app-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.qr {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.store-btn {
+    background: #111;
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.socials svg:hover {
+    color: #aaa;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.stores {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+
+.input-email {
+    width: 175px;
+    height: 40px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.links {
+    color: #fff;
+}
+
+.eng-borderi {
+    position: relative;
+    width: 1515px;
+    margin-left: -75px;
+    height: 1px;
+    background: #fff;
+    top: 70px;
+}
+
+.rimel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #222;
+}
